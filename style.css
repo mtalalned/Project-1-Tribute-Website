@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+.container-main-div {
+    border: 12px solid #1d1e4c;
+    width: 80%;
+    margin: 0 auto;
+    padding: 95px 100px 0px;
+    background-color: #e5e5fd;
+}
+.container-sub-main-div {
+    background-color: #e5e5fd;
+}
+img {
+    background-color: #e5e5fd;
+    border-radius: 300px;
+}
+h1, h2 {
+    font-size: 6rem;
+    text-align: end;
+}
+h2 {
+    font-size: 3rem;
+}
