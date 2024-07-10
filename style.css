@@ -6,9 +6,12 @@
 html {
     font-size: 62.5%;
 }
+body {
+    font-family: "Inter", sans-serif;
+}
 .container-main-div {
     border: 12px solid #1d1e4c;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     padding: 95px 100px 0px;
     background-color: #e5e5fd;
@@ -16,14 +19,37 @@ html {
 .container-sub-main-div {
     background-color: #e5e5fd;
 }
-img {
-    background-color: #e5e5fd;
-    border-radius: 300px;
+.container-main-div{
+    margin-bottom: 40px;
 }
-h1, h2 {
+img {
+    border-radius: 350px;
+}
+h1 {
     font-size: 6rem;
-    text-align: end;
 }
 h2 {
     font-size: 3rem;
+}
+h3 {
+    font-size: 8rem;
+    margin-top: 100px;
+    word-spacing: 20px;
+}
+span {
+    font-weight: bold;
+}
+.container-main-div :nth-child(4) p:nth-of-type(1){
+    font-size: 1.5rem;
+}
+.container-main-div :nth-child(5) p:nth-of-type(1){
+    font-size: 2rem;
+}
+.container-main-div :nth-child(6) > ul > li{
+    font-size: 1.5rem;
+}
+.container-main-div p:nth-last-of-type(1){
+    font-size: 1.5rem;
+    margin-top: 85px;
+    margin-bottom: 60px;
 }
